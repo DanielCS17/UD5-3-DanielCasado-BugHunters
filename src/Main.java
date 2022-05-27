@@ -3,7 +3,6 @@ import com.digitalcastaway.biblioteca.Persona;
 
 import java.util.Scanner;
 
-
 public class Main {
 
     public static void main(String[] args) {
@@ -47,7 +46,7 @@ public class Main {
                     System.out.println("Ha obtenido el título: " + titulo);
                     break;
                 case "4":
-                    System.out.println(usuario);
+                    System.out.println(usuario.toString());
                     break;
                 case"5":
                     System.out.println("Introduzca el título del libro que quiere devolver");
